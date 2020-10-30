@@ -1,0 +1,73 @@
+.App {
+    height: 120vh;
+}
+
+.header {
+    width: 100vw;
+    height: 25vh;
+    background: rgb(3, 42, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 18vw;
+        height: 20vh;
+        position: absolute;
+        left: 5vw;
+    }
+
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2rem;
+        color: white;
+    }
+}
+
+.meme-form {
+    background: rgb(3, 42, 78);
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+
+    .inputs {
+        display: flex;
+        height: 4vh;
+    }
+
+    .button {
+        width: 8vw;
+        height: 5vh;
+        border-radius: 3px;
+        background: orange;
+    }
+}
+.meme {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    img {
+        max-width: 60vw;
+        max-height: 60vh;
+    }
+
+    .top {
+        position: absolute;
+        top: 5%;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .bottom {
+        position: absolute;
+        top: 85%;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+
